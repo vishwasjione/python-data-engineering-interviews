@@ -44,6 +44,13 @@ print(l1)
 
 # 4th way most optimum way
 l1 = s1.split()
-l2=l1[::-1]
-s2=' '.join(l2)
+l2 = l1[::-1]
+s2 = ' '.join(l2)
 print(s2)
+
+# 5th way using function
+l1 = s1.split()
+l2=reversed(l1)
+s3=' '.join(l2)
+print('4th way')
+print(s3)
