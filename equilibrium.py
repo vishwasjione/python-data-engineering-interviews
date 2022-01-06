@@ -1,5 +1,4 @@
 l1 = [4, 3, 8, 5, 9, 3]
-
 # 1st way of doing itf
 def eq(l1):
     sum_left = l1[0]
